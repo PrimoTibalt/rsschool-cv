@@ -16,3 +16,20 @@
 - Linux
 - C
 - Git + GitHub
+
+## Code Examples
+From codewars (4 kyu):
+- def solution(string,markers): 
+	    ----new_string = str() 
+		----block = False
+	    ----for s in string:
+		        --------if s == '\n': 
+			    ------------block = False 
+			    ------------new_string = new_string.strip(' ')
+		        --------if s in markers:
+			    ------------block = True 
+		        --------if block:  
+			    ------------continue  
+		        --------new_string += s 
+	----return  new_string.rstrip(' ')
+    
