@@ -14,6 +14,7 @@
 - Python 3
 - C#
 - Linux
+- Bash
 - C
 - Git + GitHub
 
@@ -42,3 +43,6 @@ September 2017 - June 2021
 August 2019
 - "Погружение в python" course on coursera from MAIL.RU GROUP
 July 2019
+
+## English
+B1 (certified by training.by)
