@@ -32,3 +32,13 @@ From codewars (4 kyu):
 	------------continue  
 	--------new_string += s 
 	----return  new_string.rstrip(' ')
+
+## Education
+- Belarussian State University of Informatics and Radioelectronics
+Radio communication equipment (programmable electronic warfare) 
+September 2017 - June 2021
+
+- "Introduction to python" course in EPAM "Python and golang solutions" 
+August 2019
+- "Погружение в python" course on coursera from MAIL.RU GROUP
+July 2019
