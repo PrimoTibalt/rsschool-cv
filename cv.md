@@ -8,7 +8,7 @@
 
 ## Summary
 
-*I am a BSUIR third year student. I have always interested in computers, and spent a lot of time with them. My uncle and ant are programmers and from an early age I wished to became a programmer. It's amazing to create some tools that are helpful and fun. I studied by myself such programming languages as C, C++, a lot of C#, even more Python. Now, I want to became a full-stack, because it's cool. One person can create and run something in internet by him selve. I found that - it isn't easy way, but the most interesting.*
+*I am a BSUIR third year student. I have been always interested in computers, and spent a lot of time with them. My uncle and ant are programmers and from an early age I wished to became a programmer. It's amazing to create some tools that are helpful and fun. I studied by myself such programming languages as C, C++, a lot of C#, even more Python. Now, I want to became a full-stack, because it's cool. One person can create and run something in internet by him selve. I found that - it isn't easy way, but the most interesting.*
 
 ## Skills
 - Python 3
@@ -20,7 +20,7 @@
 
 ## Code Examples
 From codewars(6 kyu):
-def tower_builder(n_floors):
+- def tower_builder(n_floors):
 ----return [ ' '*(n_floors-1-n) + '*'*(n+n+1) + ' '*(n_floors-1-n) for n in range(n_floors)]
 
 ## Education
