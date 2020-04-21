@@ -1,3 +1,3 @@
 # rsschool-cv
 My CV
- https://primotibalt.github.io/rsschool-cv/cv
+ https://primotibalt.github.io/rsschool-cv/
