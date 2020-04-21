@@ -51,8 +51,9 @@ ul{
 
 .container .profile-photo{
     display: inline-block;
-    width: 23%;
-    margin-top: 54px;
+    position: absolute;
+    width: 19%;
+    margin-top: 28px;
     margin-left: -127px;
     margin-bottom: -69px;
 }
