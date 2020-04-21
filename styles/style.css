@@ -1,0 +1,89 @@
+nav{
+    display: inline-block;
+    text-align: left;
+    width: 948px;
+}
+
+body{
+    height: 100%;
+    text-align: center;
+}
+
+header{
+    text-align: left;
+}
+
+h1 {
+    text-align: left;
+    margin-bottom: -20px;
+    border-bottom: 2px dotted black;
+}
+
+h2{
+    border-bottom: 2px dotted black;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+ul{
+    font-size: 30px;
+}
+
+.container{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.container .top-contact-info {
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    width: 628px;
+}
+
+.container .top-contact-info li{
+    padding: 2%;
+    border-bottom: 2px dotted black;
+}
+
+.container .profile-photo{
+    display: inline-block;
+    width: 23%;
+    margin-top: 54px;
+    margin-left: -127px;
+    margin-bottom: -69px;
+}
+
+.h2-text{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin-left: 38px;
+    margin-right: 70px;
+}
+
+.summery{
+    margin-top: 3%;
+}
+
+.text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
+
+.skills-counter{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    text-align: left;
+}
+
+.skills-counter li{
+    margin: 9px;
+}
+
+.education+.text{
+    margin-left: 26px;
+    text-align: left;
+}
