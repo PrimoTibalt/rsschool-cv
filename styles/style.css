@@ -20,13 +20,15 @@ main{
 }
 
 .name{
-    text-align: left;
+    text-align: center;
     margin-bottom: -1%;
-    border-bottom: 2px dotted black;
+    border-bottom: 4px dotted black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 h2{
-    border-bottom: 2px dotted black;
+    border-bottom: 1px solid black;
+    font-size: larger;
 }
 
 a{
@@ -34,13 +36,15 @@ a{
     text-decoration: none;
 }
 
-.container{
+.container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-left: 10%;
-    margin-right: 10%;
+    max-width: 1700px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 10%;
 }
 
 .container .contact-info-list {
@@ -63,25 +67,86 @@ a{
 }
 
 .summary{
+    font-family: Arial, Helvetica, sans-serif;
     margin-top: 3%;
 }
 
 .text {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: larger;
+    text-align: center;
 }
 
 .skills-counter{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: large;
-    text-align: left;
+    text-align: justify;
 }
 
 .skills-counter li{
     margin: 9px;
 }
 
+.work-expirience {
+    text-align: justify;
+    align-content: left;
+}
+
 .education+.text{
     margin-left: 26px;
     text-align: left;
+}
+
+.pet-projects {
+    text-align: justify;
+    align-content: left;
+}
+
+ol {
+    padding: 0 2%;
+}
+
+ol li {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 0 2% 0 0;
+}
+
+ol li.bold {
+    font-weight: bold;
+}
+
+ol li.bold .not-bold {
+    font-weight: normal;
+}
+
+ol div {
+    text-align: justify;
+    padding: 10px 2% 10px 0;
+    font-size: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+@media (max-width: 1000px) {
+    .container {
+        padding: 0 1%;
+    }
+
+    .left-side-on-mobile {
+        text-align: justify;
+        padding: 0 2%;
+    }
+
+    .text {
+        text-align: justify;
+    }
+
+    nav {
+        width: 80%;
+    }
+
+    header {
+        width: 100%;
+    }
+
+    main {
+        width: 100%;
+    }
 }
